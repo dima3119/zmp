@@ -1,0 +1,932 @@
+#EXTM3U url-tvg="http://iptvx.one/EPG_LITE" catchup="»append»" catchup-days="»3″" catchup-source="»?offset" -${offset}&utcstart="${timestamp}»" deinterlace="1" m3uautoload="1"
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="»Первый_канал»," group-title="»Россия»", Первый канал
+#EXTGRP:»Россия»
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_NN_1TV/variant.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rossia1" tvg-name="Россия 1" group-title="Эфирные", Россия 1
+#EXTGRP:Эфирные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="ntv" tvg-name="НТВ" group-title="Эфирные", НТВ
+#EXTGRP:Эфирные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="»sts»" tvg-name="СТС" group-title="»Развлекательные»,", СТС
+#EXTGRP:»Развлекательные»,
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tvcentr" tvg-name="ТВ Центр" group-title="Эфирные", ТВ Центр
+#EXTGRP:Эфирные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="5kanal-ru" tvg-name="Пятый канал" group-title="Эфирные", Пятый канал
+#EXTGRP:Эфирные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="mir" tvg-name="Мир" group-title="Эфирные", Мир
+#EXTGRP:Эфирные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Че" group-title="»Развлекательные»,", Че
+#EXTGRP:»Развлекательные»,
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="»Домашний»," group-title="»Россия»", Домашний
+#EXTGRP:»Россия»
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tnt" tvg-name="ТНТ" group-title="Развлекательные", ТНТ
+#EXTGRP:Развлекательные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="che" tvg-name="Че!" group-title="Мужские", Че!
+#EXTGRP:Мужские
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="piatnica" tvg-name="Пятница!" group-title="Развлекательные", Пятница!
+#EXTGRP:Развлекательные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="zvezda" tvg-name="Звезда" group-title="Эфирные", Звезда
+#EXTGRP:Эфирные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="РЕН ТВ" group-title="»Развлекательные»,", РЕН ТВ
+#EXTGRP:»Развлекательные»,
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Россия К" group-title="»Россия»,", Россия К
+#EXTGRP:»Россия»,
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="»tv3-ru»" tvg-name="ТВ 3" group-title="»Развлекательные»,", ТВ 3
+#EXTGRP:»Развлекательные»,
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="super" tvg-name="Супер" group-title="Развлекательные", Супер
+#EXTGRP:Развлекательные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="»tnt4″" tvg-name="ТНТ4" group-title="»Развлекательные»,", ТНТ4
+#EXTGRP:»Развлекательные»,
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Матч! ТВ" group-title="»Спорт»,", Матч! ТВ
+#EXTGRP:»Спорт»,
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Карусель" group-title="»Детские»,", Карусель
+#EXTGRP:»Детские»,
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="»sts-love»" tvg-name="СТС Love" group-title="»Развлекательные»,", СТС Love
+#EXTGRP:»Развлекательные»,
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="yu" tvg-name="Ю" group-title="Женские", Ю
+#EXTGRP:Женские
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8?version=2
+#EXTINF:-1 tvg-name="»ОТР»," group-title="»Россия»", ОТР
+#EXTGRP:»Россия»
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="disney" tvg-name="Канал Disney" group-title="Детские", Канал Disney
+#EXTGRP:Детские
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="muztv" tvg-name="Муз ТВ" group-title="Музыкальные", Муз ТВ
+#EXTGRP:Музыкальные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="spas" tvg-name="Спас" group-title="Религиозные", Спас
+#EXTGRP:Религиозные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8?version=2
+#EXTINF:-1 tvg-name="2×2" group-title="»Развлекательные»,", 2×2
+#EXTGRP:»Развлекательные»,
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="otr" tvg-name="Общественное телевидение России" group-title="Эфирные", Общественное телевидение России
+#EXTGRP:Эфирные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rossia-24" tvg-name="Россия 24" group-title="Информационные", Россия 24
+#EXTGRP:Информационные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tnv-planeta" tvg-name="ТНВ-Планета" group-title="Национальные", ТНВ-Планета
+#EXTGRP:Национальные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R05_TNV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="shayantv" tvg-name="Шаян ТВ" tvg-logo="http://fe-vlg.svc.iptv.rt.ru/images/nclogo1584096508053.png" group-title="Национальные", Шаян ТВ
+#EXTGRP:Национальные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s45177.cdn.ngenix.net/hls/CH_R03_SHAYNTV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="2na2-pl2" tvg-name="2x2 (+2)" group-title="Федеральные", 2x2 (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="2na2-pl4" tvg-name="2x2 (+4)" group-title="Федеральные", 2x2 (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="2na2-pl7" tvg-name="2x2 (+7)" group-title="Федеральные", 2x2 (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="domashny-pl2" tvg-name="Домашний (+2)" group-title="Федеральные", Домашний (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="domashny-pl4" tvg-name="Домашний (+4)" group-title="Федеральные", Домашний (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="domashny-pl7" tvg-name="Домашний (+7)" group-title="Федеральные", Домашний (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="zvezda-pl2" tvg-name="Звезда (+2)" group-title="Федеральные", Звезда (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="zvezda-pl4" tvg-name="Звезда (+4)" group-title="Федеральные", Звезда (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="zvezda-pl7" tvg-name="Звезда (+7)" group-title="Федеральные", Звезда (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="disney-pl4" tvg-name="Канал Disney (+4)" group-title="Федеральные", Канал Disney (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="disney-pl7" tvg-name="Канал Disney (+7)" group-title="Федеральные", Канал Disney (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="karusel-pl2" tvg-name="Карусель (+2)" group-title="Федеральные", Карусель (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="karusel-pl4" tvg-name="Карусель (+4)" group-title="Федеральные", Карусель (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="karusel-pl7" tvg-name="Карусель (+7)" group-title="Федеральные", Карусель (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="mir-pl2" tvg-name="Мир (+2)" group-title="Федеральные", Мир (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="mir-pl4" tvg-name="Мир (+4)" group-title="Федеральные", Мир (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="mir-pl7" tvg-name="Мир (+7)" group-title="Федеральные", Мир (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="muztv" tvg-shift="-2" tvg-name="Муз ТВ (+2)" group-title="Федеральные", Муз ТВ (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="muztv" tvg-shift="-4" tvg-name="Муз ТВ (+4)" group-title="Федеральные", Муз ТВ (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="muztv-pl7" tvg-name="Муз ТВ (+7)" group-title="Федеральные", Муз ТВ (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="ntv-pl2" tvg-name="НТВ (+2)" group-title="Федеральные", НТВ (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="ntv-pl4" tvg-name="НТВ (+4)" group-title="Федеральные", НТВ (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="ntv-pl7" tvg-name="НТВ (+7)" group-title="Федеральные", НТВ (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="pervy-pl1" tvg-name="Первый канал (+1)" group-title="Федеральные", Первый канал (+1)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_1TV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="pervy-pl2" tvg-name="Первый канал (+2)" group-title="Федеральные", Первый канал (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_1TV_EKT/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="pervy-pl3" tvg-name="Первый канал (+3)" group-title="Федеральные", Первый канал (+3)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R03_OTT_SIB_OMSK_1TV_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="pervy-pl4" tvg-name="Первый канал (+4)" group-title="Федеральные", Первый канал (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R03_1TV_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="pervy-pl6" tvg-name="Первый канал (+6)" group-title="Федеральные", Первый канал (+6)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s34351.cdn.ngenix.net/hls/CH_R14_OTT_DV_YKT_1TV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="pervy-pl7" tvg-name="Первый канал (+7)" group-title="Федеральные", Первый канал (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_1TV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="pervy-pl8" tvg-name="Первый канал (+8)" group-title="Федеральные", Первый канал (+8)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_1TV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="pervy-pl9" tvg-name="Первый канал (+9)" group-title="Федеральные", Первый канал (+9)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_1TV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="piatnica-pl2" tvg-name="Пятница! (+2)" group-title="Федеральные", Пятница! (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="piatnica-pl4" tvg-name="Пятница! (+4)" group-title="Федеральные", Пятница! (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="piatnica-pl7" tvg-name="Пятница! (+7)" group-title="Федеральные", Пятница! (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="5kanal-ru-pl2" tvg-name="Пятый канал (+2)" group-title="Федеральные", Пятый канал (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="5kanal-ru-pl4" tvg-name="Пятый канал (+4)" group-title="Федеральные", Пятый канал (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="5kanal-ru-pl7" tvg-name="Пятый канал (+7)" group-title="Федеральные", Пятый канал (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rentv-pl2" tvg-name="РЕН ТВ (+2)" group-title="Федеральные", РЕН ТВ (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rentv-pl4" tvg-name="РЕН ТВ (+4)" group-title="Федеральные", РЕН ТВ (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rentv-pl7" tvg-name="РЕН ТВ (+7)" group-title="Федеральные", РЕН ТВ (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rossia1-pl1" tvg-name="Россия 1 (+1)" group-title="Федеральные", Россия 1 (+1)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R04_OTT_VLG_SARATOV_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rossia1-pl2" tvg-name="Россия 1 (+2)" group-title="Федеральные", Россия 1 (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rossia1-pl3" tvg-name="Россия 1 (+3)" group-title="Федеральные", Россия 1 (+3)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SIB_OMSK_ROSSIA1_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rossia1-pl4" tvg-name="Россия 1 (+4)" group-title="Федеральные", Россия 1 (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rossia1-pl6" tvg-name="Россия 1 (+6)" group-title="Федеральные", Россия 1 (+6)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rossia1-pl7" tvg-name="Россия 1 (+7)" group-title="Федеральные", Россия 1 (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rossia1-pl8" tvg-name="Россия 1 (+8)" group-title="Федеральные", Россия 1 (+8)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rossia1-pl9" tvg-name="Россия 1 (+9)" group-title="Федеральные", Россия 1 (+9)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="kultura-pl2" tvg-name="Россия К (+2)" group-title="Федеральные", Россия К (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="kultura-pl4" tvg-name="Россия К (+4)" group-title="Федеральные", Россия К (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="kultura-pl7" tvg-name="Россия К (+7)" group-title="Федеральные", Россия К (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="sts-pl2" tvg-name="СТС (+2)" group-title="Федеральные", СТС (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="sts-pl4" tvg-name="СТС (+4)" group-title="Федеральные", СТС (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STS_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="sts-pl7" tvg-name="СТС (+7)" group-title="Федеральные", СТС (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="sts-love-pl2" tvg-name="СТС Love (+2)" group-title="Федеральные", СТС Love (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="super-pl2" tvg-name="Супер (+2)" group-title="Федеральные", Супер (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="super-pl4" tvg-name="Супер (+4)" group-title="Федеральные", Супер (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="super-pl7" tvg-name="Супер (+7)" group-title="Федеральные", Супер (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tv3-ru-pl2" tvg-name="ТВ 3 (+2)" group-title="Федеральные", ТВ 3 (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tv3-ru-pl4" tvg-name="ТВ 3 (+4)" group-title="Федеральные", ТВ 3 (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tv3-ru-pl7" tvg-name="ТВ 3 (+7)" group-title="Федеральные", ТВ 3 (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tvcentr-pl2" tvg-name="ТВ Центр (+2)" group-title="Федеральные", ТВ Центр (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tvcentr-pl4" tvg-name="ТВ Центр (+4)" group-title="Федеральные", ТВ Центр (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tvcentr-pl7" tvg-name="ТВ Центр (+7)" group-title="Федеральные", ТВ Центр (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tnt-pl2" tvg-name="ТНТ (+2)" group-title="Федеральные", ТНТ (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tnt-pl4" tvg-name="ТНТ (+4)" group-title="Федеральные", ТНТ (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tnt4-pl2" tvg-name="ТНТ4 (+2)" group-title="Федеральные", ТНТ4 (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tnt4-pl4" tvg-name="ТНТ4 (+4)" group-title="Федеральные", ТНТ4 (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tnt4-pl7" tvg-name="ТНТ4 (+7)" group-title="Федеральные", ТНТ4 (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="che-pl2" tvg-name="Че! (+2)" group-title="Федеральные", Че! (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_PERETZ/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="che-pl4" tvg-name="Че! (+4)" group-title="Федеральные", Че! (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="che-pl7" tvg-name="Че! (+7)" group-title="Федеральные", Че! (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="yu-pl2" tvg-name="Ю (+2)" group-title="Федеральные", Ю (+2)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_U_2/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="yu-pl4" tvg-name="Ю (+4)" group-title="Федеральные", Ю (+4)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="yu-pl7" tvg-name="Ю (+7)" group-title="Федеральные", Ю (+7)
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="7kanal-krasnoyarsk" tvg-name="7 канал Красноярск" group-title="Региональные", 7 канал Красноярск
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R13_OTT_SIB_KRSK_RENTV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="8vladik" tvg-name="8 канал (Владивосток)" group-title="Региональные", 8 канал (Владивосток)
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_OTT8KANAL/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="8kanal-krasnoyarsk" tvg-name="8 канал (Красноярский край)" group-title="Региональные", 8 канал (Красноярский край)
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_SIB_KRSK_8CHANNEL/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="8kanal-novosibirsk" tvg-name="8 канал (Новосибирск)" group-title="Региональные", 8 канал (Новосибирск)
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_8CHANNEL/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="12-omsk" tvg-name="12 канал HD" group-title="Региональные", 12 канал HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_12CHANNEL/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="31-kanal-chelyabinsk" tvg-name="31 канал Челябинск" group-title="Региональные", 31 канал Челябинск
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_31TVK_CHEL/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg_news" tvg-name="41 Регион" tvg-logo="http://fe-dv.svc.iptv.rt.ru/images/broadcastChannel1564560305925.png" group-title="Региональные", 41 Регион
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s14131.cdn.ngenix.net/hls/CH_R02_OTT_DV_KAM_41REG_OTT/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="6tv" tvg-name="6 ТВ" group-title="Региональные", 6 ТВ
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_6TV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tmtv" tvg-name="TMTV" tvg-logo="http://fe-vlg.svc.iptv.rt.ru/images/broadcastChannel1478611238262.png" group-title="Региональные", TMTV
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R03_TMTV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="ugra-travel" tvg-name="UGRA TRAVEL" group-title="Региональные", UGRA TRAVEL
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_TRAVEL/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="aist" tvg-name="АИСТ HD" group-title="Региональные", АИСТ HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AIST/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="1obl-blagoveschensk" tvg-name="Амурское областное телевидение" tvg-logo="http://fe-dv.svc.iptv.rt.ru/images/broadcastChannel1491374943294.png" group-title="Региональные", Амурское областное телевидение
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s84942.cdn.ngenix.net/hls/CH_R28_OTT_DV_BLAG_AOT/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="arig-us-24" tvg-name="Ариг Ус 24 HD" group-title="Региональные", Ариг Ус 24 HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ARIGUS/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="vremia-arktiki" tvg-name="Арктика 24 HD" tvg-logo="http://fe-ural.svc.iptv.rt.ru/images/broadcastChannel1542282104030.jpg" group-title="Региональные", Арктика 24 HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ARKTIKA24_URAL_YNF/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="arxyz24" tvg-name="Архыз-24 HD" group-title="Региональные", Архыз-24 HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STH_CHERKS_ARKHIZ241/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="astraxan24" tvg-name="Астрахань 24 HD" group-title="Региональные", Астрахань 24 HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R01_ASTRAKHAN24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="atv-media" tvg-name="АТВ-Медиа" group-title="Региональные", АТВ-Медиа
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ATVMEDIA/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg_news" tvg-name="АТВ-Ставрополь" group-title="Региональные", АТВ-Ставрополь
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_STAVR_ATV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="bars" tvg-name="Барс плюс" group-title="Региональные", Барс плюс
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_IVAN_BARS/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="bashkortostan24" tvg-name="Башкортостан 24" group-title="Региональные", Башкортостан 24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s45177.cdn.ngenix.net/hls/CH_R02_BASHKORTOSTAN24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="belgorod24" tvg-name="Белгород 24" group-title="Региональные", Белгород 24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_BELG_BELGOROD24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="brianskaya-gubernia" tvg-name="Брянская Губерния HD" group-title="Региональные", Брянская Губерния HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-bryansk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BRYANSK_BRGRUBER/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="bst" tvg-name="БСТ" group-title="Региональные", БСТ
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_BST/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tk-variant" tvg-name="Вариант V" tvg-logo="http://fe-ct.svc.iptv.rt.ru/images/broadcastChannel1449146742795.png" group-title="Региональные", Вариант V
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_VLAD_VARIANT_V/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg" tvg-name="Вектор 24" tvg-logo="http://fe-ural.svc.iptv.rt.ru/images/broadcastChannel1529493228465.jpg" group-title="Региональные", Вектор 24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R02_VEKTOR24_GUBK/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="vetta24" tvg-name="Ветта 24 Пермь" tvg-logo="http://fe-ural.svc.iptv.rt.ru/images/nclogo1525679372642.png" group-title="Региональные", Ветта 24 Пермь
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VETTA24_PERM/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="volga" tvg-name="Волга" tvg-logo="http://fe-vlg.svc.iptv.rt.ru/images/nclogo1555679160510.png" group-title="Региональные", Волга
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_VOLGA/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="volgograd-1" tvg-name="Волгоград 1 HD" tvg-logo="http://fe-sth.svc.iptv.rt.ru/images/broadcastChannel1472218027991.png" group-title="Региональные", Волгоград 1 HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sth-vgrad-htlive.cdn.ngenix.net/hls/CH_R06_OTT_STH_VGRAD_VOLGOGRAD1/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="volgograd-24" tvg-name="Волгоград-24 HD" group-title="Региональные", Волгоград-24 HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sth-vgrad-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VGRAD_VOLGOGRAD24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="vostok-24" tvg-name="Восток 24" tvg-logo="http://fe-dv.svc.iptv.rt.ru/images/nclogo1530169471073.png" group-title="Региональные", Восток 24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_VOSTOK24_OTT/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="vot-tv" tvg-name="ВОТтв HD" group-title="Региональные", ВОТтв HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_LIPETSK_VOTTV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="vremia-n" tvg-name="Время Н" tvg-logo="http://fe-vlg.svc.iptv.rt.ru/images/nclogo1555680096248.png" group-title="Региональные", Время Н
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R04_VREMYAN/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg_news" tvg-name="ВТК «Аргус» HD" tvg-logo="http://fe-ct.svc.iptv.rt.ru/images/broadcastChannel1590403623275.png" group-title="Региональные", ВТК «Аргус» HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_ARGUS/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="gorodskoy-yaroslavl" tvg-name="Городской телеканал Ярославль" tvg-logo="http://fe-ct.svc.iptv.rt.ru/images/nclogo1525773931022.png" group-title="Региональные", Городской телеканал Ярославль
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_YARL_GTREG/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="gubernia-33" tvg-name="Губерния 33 HD" group-title="Региональные", Губерния 33 HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_VLAD_GUBERNIA33/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="gubernia-samara" tvg-name="Губерния Самара" group-title="Региональные", Губерния Самара
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_GUBERNIA/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="gubernia" tvg-name="Губерния" group-title="Региональные", Губерния
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_GUBERNYA/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="deviatka" tvg-name="Девятка ТВ" group-title="Региональные", Девятка ТВ
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R02_9TV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="dzenzhinsk-tv" tvg-name="Дзержинск ТВ" group-title="Региональные", Дзержинск ТВ
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_DZERZHINSK/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="don-24" tvg-name="ДОН 24 HD" group-title="Региональные", ДОН 24 HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sth-rd-htlive.cdn.ngenix.net/hls/CH_R02_OTT_STH_RD_DON24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="evrasia" tvg-name="Евразия" group-title="Региональные", Евразия
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R02_EVRAZIY/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="enisey-region" tvg-name="Енисей HD" group-title="Региональные", Енисей HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KRSK_ENISEY/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="ivanovo-ot" tvg-name="Ивановское общественное телевидение" group-title="Региональные", Ивановское общественное телевидение
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_IVAN_IOT/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg_news" tvg-name="Импульс HD" tvg-logo="http://fe-ural.svc.iptv.rt.ru/images/broadcastChannel1558583498243.png" group-title="Региональные", Импульс HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R02_IMPULS_NBK/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg_news" tvg-name="Инфо 24 HD" tvg-logo="http://fe-ural.svc.iptv.rt.ru/images/broadcastChannel1550219150031.png" group-title="Региональные", Инфо 24 HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SHINFO_URAL_KRG/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg_news" tvg-name="Информационная служба Югры" tvg-logo="http://fe-ural.svc.iptv.rt.ru/images/broadcastChannel1562587410193.png" group-title="Региональные", Информационная служба Югры
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_PERVIYSOVETSKIY/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="kavkaz24" tvg-name="Кавказ 24" group-title="Региональные", Кавказ 24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_STAVR_KAVKAZ24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg_news" tvg-name="Камчатка HD" tvg-logo="http://fe-dv.svc.iptv.rt.ru/images/broadcastChannel1576718811392.png" group-title="Региональные", Камчатка HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_KAMCHATKA/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="kaskad24" tvg-name="Каскад" group-title="Региональные", Каскад
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_KASKAD/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="katun-24" tvg-name="Катунь 24" tvg-logo="http://fe-sib.svc.iptv.rt.ru/images/broadcastChannel1425535253255.png" group-title="Региональные", Катунь 24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_KATUN24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="krasnodar" tvg-name="Краснодар HD" group-title="Региональные", Краснодар HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_KRDAR_KRASNODAR/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="kuban-24" tvg-name="Кубань 24" group-title="Региональные", Кубань 24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_KUBAN24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg_news" tvg-name="Кузбасс 1" tvg-logo="http://fe-sib.svc.iptv.rt.ru/images/broadcastChannel1578629022322.png" group-title="Региональные", Кузбасс 1
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-kem-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KEM_GTRK/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="lot-47" tvg-name="Лен ТВ 24" tvg-logo="http://fe-nw.svc.iptv.rt.ru/images/broadcastChannel1591339865692.png" group-title="Региональные", Лен ТВ 24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_LENTVSD/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="lipeckoe-vremia" tvg-name="Липецкое время HD" group-title="Региональные", Липецкое время HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_LIPETSK_LVREM/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="maydan" tvg-name="Майдан" group-title="Региональные", Майдан
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R05_MAIDAN/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="kuban-24" tvg-name="Майкопское Телевидение" group-title="Региональные", Майкопское Телевидение
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_OTT_STH_KRDAR_MAYKOP/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="mig-tv-noyabrsk" tvg-name="Миг ТВ" group-title="Региональные", Миг ТВ
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MIG_TV_URAL_YNF/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="mir-belogoria" tvg-name="Мир Белогорья" group-title="Региональные", Мир Белогорья
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BELG_MIR_BLG/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg_news" tvg-name="Мордовия-24" tvg-logo="http://fe-vlg.svc.iptv.rt.ru/images/broadcastChannel1553783249761.png" group-title="Региональные", Мордовия-24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-srnk-htlive.cdn.ngenix.net/hls/CH_R02_MORDOVIY24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg_news" tvg-name="Муравленко 24" tvg-logo="http://fe-ural.svc.iptv.rt.ru/images/broadcastChannel1569901043455.jpg" group-title="Региональные", Муравленко 24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_MURAVLENKO_24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="metr" tvg-name="МЭТР" group-title="Региональные", МЭТР
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-yola-htlive.cdn.ngenix.net/hls/CH_R03_METR/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="ntm" tvg-name="Народное телевидение Мордовии" tvg-logo="http://fe-vlg.svc.iptv.rt.ru/images/broadcastChannel1490273937894.png" group-title="Региональные", Народное телевидение Мордовии
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-srnk-htlive.cdn.ngenix.net/hls/CH_R01_NTM/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="chavash-en" tvg-name="Национальное ТВ Чувашии" tvg-logo="http://fe-vlg.svc.iptv.rt.ru/images/broadcastChannel1346063230148.png" group-title="Региональные", Национальное ТВ Чувашии
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_NATIONALTV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="nash-dom" tvg-name="Наш дом" group-title="Региональные", Наш дом
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R03_NASHDOM/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg" tvg-name="Наши города" tvg-logo="http://fe-ural.svc.iptv.rt.ru/images/broadcastChannel1386141072221.jpg" group-title="Региональные", Наши города
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NGOR_URAL_SUR/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="saxa" tvg-name="НВК (Саха)" group-title="Региональные", НВК (Саха)
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s34351.cdn.ngenix.net/hls/CH_R03_OTT_DV_YKT_NVC_OTT/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="nika-tv" tvg-name="Ника-ТВ" group-title="Региональные", Ника-ТВ
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-kaluga-htlive.cdn.ngenix.net/hls/CH_R01_NIKA/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="nntv" tvg-name="ННТВ" group-title="Региональные", ННТВ
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R02_NNTV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="novgorodskoe-obl-tv" tvg-name="Новгородское областное телевидение" group-title="Региональные", Новгородское областное телевидение
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-nw-novg-htlive.cdn.ngenix.net/hls/CH_R02_NOVGORODTV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg_news" tvg-name="Новое время (Радужный)" group-title="Региональные", Новое время (Радужный)
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RADUZNYI/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="novy-vek-tambov" tvg-name="Новый век (Тамбов)" group-title="Региональные", Новый век (Тамбов)
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-tamb-htlive.cdn.ngenix.net/hls/CH_R03_OTT_CT_TAMB_NOVIY_VEK/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="49kanal" tvg-name="НСК 49" group-title="Региональные", НСК 49
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_49CHANNEL/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="ntk-kz" tvg-name="НТК" group-title="Региональные", НТК
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s97982.cdn.ngenix.net/hls/CH_R79_OTT_DV_HVSK_NTK/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="nts-irkutsk" tvg-name="НТС Иркутск" group-title="Региональные", НТС Иркутск
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_RENTVIRK/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="nts-irbit" tvg-name="НТС-Ирбит (Екатеринбург)" group-title="Региональные", НТС-Ирбит (Екатеринбург)
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_IRBITVEST_EKT/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg_news" tvg-name="Область 45 HD" tvg-logo="http://fe-ural.svc.iptv.rt.ru/images/broadcastChannel1574910981778.jpg" group-title="Региональные", Область 45 HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_OBLAST45/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="ort-planeta-orenburg" tvg-name="ОРТ-Планета (Оренбург)" group-title="Региональные", ОРТ-Планета (Оренбург)
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R03_ORTPLANET/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="osetia-iryston" tvg-name="Осетия-Ирыстон HD" group-title="Региональные", Осетия-Ирыстон HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="otv-eburg" tvg-name="ОТВ Екатеринбург HD" group-title="Региональные", ОТВ Екатеринбург HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_EKT/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="otv-primorie" tvg-name="ОТВ-Владивосток" group-title="Региональные", ОТВ-Владивосток
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_OTV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="otv-saxalin" tvg-name="ОТВ-Сахалин" group-title="Региональные", ОТВ-Сахалин
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s14553.cdn.ngenix.net/hls/CH_R65_OTT_DV_SLIN_OTV_SLIN/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="ots" tvg-name="ОТС HD" group-title="Региональные", ОТС HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_OTS/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="pervy-gorodskoy-kirov" tvg-name="Первый городской (Киров)" group-title="Региональные", Первый городской (Киров)
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R03_PERVYGORODSKOY/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="pervy-oblastnoy-orel" tvg-name="Первый областной" group-title="Региональные", Первый областной
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_PERVOBL/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="pervy-tulsky" tvg-name="Первый Тульский HD" group-title="Региональные", Первый Тульский HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_TULA_PERV_TUL/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="pervy-yaroslavsky" tvg-name="Первый Ярославский HD" group-title="Региональные", Первый Ярославский HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_YARL_NTM/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="prima" tvg-name="Прима-ТВ" group-title="Региональные", Прима-ТВ
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rgvk-dagestan" tvg-name="РГВК Дагестан" tvg-logo="http://fe-sth.svc.iptv.rt.ru/images/broadcastChannel1494852051009.png" group-title="Региональные", РГВК Дагестан
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sth-mahachk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_MAHACHK_DAGESTAN/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="region29" tvg-name="Регион 29" group-title="Региональные", Регион 29
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-nw-arkh-htlive.cdn.ngenix.net/hls/CH_R02_PRAVDASEVERA/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="reportior-73" tvg-name="Репортер 73" tvg-logo="http://fe-vlg.svc.iptv.rt.ru/images/broadcastChannel1481118103517.png" group-title="Региональные", Репортер 73
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_REP73/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rifey-tv" tvg-name="Рифей-ТВ" tvg-logo="http://fe-ural.svc.iptv.rt.ru/images/broadcastChannel1531138277952.png" group-title="Региональные", Рифей-ТВ
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R02_OTT_RENTV_REFEY_PERM/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rts-abakan" tvg-name="РТС-Абакан" group-title="Региональные", РТС-Абакан
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_ABAKAN_RTS/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="russky-sever" tvg-name="Русский Север" group-title="Региональные", Русский Север
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg" tvg-name="Русь (Кострома)" group-title="Региональные", Русь (Кострома)
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-kostroma-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_KOSTROMA_RUS/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rybinsk40" tvg-name="Рыбинск-40" group-title="Региональные", Рыбинск-40
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_RYBINSK40/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="s1-surgut" tvg-name="С1 Сургут HD" group-title="Региональные", С1 Сургут HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_C1_URAL_SUR/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="samara24" tvg-name="Самара-24" group-title="Региональные", Самара-24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_SAMARA24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="gis-samara" tvg-name="Самара-Гис" group-title="Региональные", Самара-Гис
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_SAMARAGIS/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="sampo-tv" tvg-name="Сампо ТВ 360°" tvg-logo="http://fe-nw.svc.iptv.rt.ru/images/broadcastChannel1544783515312.png" group-title="Региональные", Сампо ТВ 360°
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-nw-pzav-htlive.cdn.ngenix.net/hls/CH_R01_SAMPOTV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="saratov-24" tvg-name="Саратов-24" group-title="Региональные", Саратов-24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R01_SARATOV24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="svoyo-tv-stavropol" tvg-name="Своё ТВ Ставрополь HD" tvg-logo="http://fe-sth.svc.iptv.rt.ru/images/nclogo1549825907118.png" group-title="Региональные", Своё ТВ Ставрополь HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STH_STAVR_STV-PLUS/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="sochi24" tvg-name="Сочи24 HD" group-title="Региональные", Сочи24 HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_MAKS241/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="surgut-24" tvg-name="Сургут 24" group-title="Региональные", Сургут 24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SURGUT24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tatarstan24" tvg-name="Татарстан-24" tvg-logo="http://fe-vlg.svc.iptv.rt.ru/images/broadcastChannelPoster1548665411078.png" group-title="Региональные", Татарстан-24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R02_EFIR24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg_news" tvg-name="ТВ-7 Абакан" tvg-logo="http://fe-sib.svc.iptv.rt.ru/images/broadcastChannel1578964121507.png" group-title="Региональные", ТВ-7 Абакан
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tv-guberniya" tvg-name="ТВ-Губерния" group-title="Региональные", ТВ-Губерния
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_VRZH_TVGUBERNIYA/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tv-in" tvg-name="ТВ-ИН-Магнитогорск HD" group-title="Региональные", ТВ-ИН-Магнитогорск HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_TVIN_MAGN/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="kolyma-plus" tvg-name="ТВ-Колыма-Плюс HD" group-title="Региональные", ТВ-Колыма-Плюс HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_KOLYMA/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tivikom" tvg-name="Тивиком HD" group-title="Региональные", Тивиком HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_TIVICOM/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="trk-ryazan" tvg-name="ТКР Рязань" group-title="Региональные", ТКР Рязань
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ct-ryaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_RYAZ_TKP/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tnv" tvg-name="ТНВ Татарстан" group-title="Региональные", ТНВ Татарстан
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_TNVT/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg_news" tvg-name="ТНР24" tvg-logo="http://fe-ural.svc.iptv.rt.ru/images/broadcastChannel1591702754451.jpg" group-title="Региональные", ТНР24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TNR24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="no_epg_news" tvg-name="Толк" tvg-logo="http://fe-sib.svc.iptv.rt.ru/images/broadcastChannel1567744193036.png" group-title="Региональные", Толк
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_TOLK/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tolyatti24" tvg-name="Тольятти-24" group-title="Региональные", Тольятти-24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_TOLYTTI24/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tomskoe-vremia" tvg-name="Томское время HD" tvg-logo="http://fe-sib.svc.iptv.rt.ru/images/broadcastChannel1436853093668.png" group-title="Региональные", Томское время HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_TOMSK_TOMSKVREMIA/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tumenskoe-vremia" tvg-name="Тюменское время" group-title="Региональные", Тюменское время
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TUMVR_URAL_TUM/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="udmurtia" tvg-name="Удмуртия" group-title="Региональные", Удмуртия
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-izhsk-htlive.cdn.ngenix.net/hls/CH_R03_MYUDMURTIA/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="xamdan-kalm24" tvg-name="Хамдан-Калмыкия 24" group-title="Региональные", Хамдан-Калмыкия 24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-sth-elista-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_ELISTA_HAMDAN/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="express" tvg-name="Экспресс HD" group-title="Региональные", Экспресс HD
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R01_EXPRESS/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="efir24-relax" tvg-name="Эфир" tvg-logo="http://fe-vlg.svc.iptv.rt.ru/images/broadcastChannel1553852171156.png" group-title="Региональные", Эфир
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_EFIR/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="yugra" tvg-name="Югра" group-title="Региональные", Югра
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_URAL_SUR/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="yurgan" tvg-name="Юрган" group-title="Региональные", Юрган
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_YURGAN/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="utv-cheboxary" tvg-name="ЮТВ Чебоксары" tvg-logo="http://fe-vlg.svc.iptv.rt.ru/images/broadcastChannel1479735787769.png" group-title="Региональные", ЮТВ Чебоксары
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_UTV/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="yakutia24" tvg-name="Якутия 24" tvg-logo="http://fe-dv.svc.iptv.rt.ru/images/nclogo1530606066516.png" group-title="Региональные", Якутия 24
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://s34351.cdn.ngenix.net/hls/CH_R14_OTT_DV_YKT_YKT/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="yamal-region" tvg-name="Ямал-Регион" tvg-logo="http://fe-ural.svc.iptv.rt.ru/images/nclogo1525680014617.png" group-title="Региональные", Ямал-Регион
+#EXTGRP:Региональные
+#EXTVLCOPT:http-user-agent=Restream/5.24302.99 (yuxing; Yuxing-YX6916A) SmartSDK/1.5.63-rt-38-22-g950636f Qt/4.7.3 API/20110228
+https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_YAMREG_URAL_YNF/variant.m3u8?version=2
+#EXTINF:-1 tvg-name="мтрк" group-title="Региональные", мтрк
+#EXTGRP:Региональные
+https://tvcdn01.oktv.kz/tv/mtrk/tracks-v1a1/mono.m3u8?checkedby:iptvcat.com
